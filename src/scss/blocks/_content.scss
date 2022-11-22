@@ -28,6 +28,8 @@
 		color: #fff;
 		text-decoration: none;
 
+		transition: background-color .2s ease-in-out;
+
 		&:before {
 			content: '';
 			display: block;
@@ -42,6 +44,10 @@
 		&--facebook {
 			background: $FbColor;
 
+			&:hover {
+				background: lighten($FbColor, 10%);
+			}
+
 			&:before {
 				background-image: url('../img/facebook.svg');
 			}
@@ -49,6 +55,10 @@
 
 		&--linkedin {
 			background: $InColor;
+
+			&:hover {
+				background: lighten($InColor, 10%);
+			}
 
 			&:before {
 				background-image: url('../img/linkedin.svg');

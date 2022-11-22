@@ -9,6 +9,9 @@
 
 	border: 1px solid $secondTextColor;
 
+	transition: border-color .1s ease-in-out;
+	cursor: pointer;
+
 	&:checked {
 		border: 4px solid $accentColor;
 	}

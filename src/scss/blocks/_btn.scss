@@ -5,6 +5,12 @@
 	border-radius: 5px;
 	font-size: 14px;
 
+	transition: background-color 0.2s ease-in-out;
+
+	&:hover {
+		background: darken($accentColor, 20%);
+	}
+
 	&--md {
 		padding: 12px 76px;
 	}
