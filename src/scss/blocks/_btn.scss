@@ -1,0 +1,11 @@
+.btn {
+	background: $accentColor;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+
+	&--md {
+		padding: 12px 76px;
+	}
+}

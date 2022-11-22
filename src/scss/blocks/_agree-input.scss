@@ -1,0 +1,15 @@
+.agree-input {
+	display: flex;
+		align-items: center;
+		gap: 10px;
+
+	&__label {
+		font-size: 14px;
+		letter-spacing: -0.3px;
+	}
+
+	&__link {
+		color: $accentColor;
+		text-decoration: underline;
+	}
+}

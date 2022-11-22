@@ -1,0 +1,85 @@
+.content {
+	padding: 112px 80px 110px 70px;
+	width: 100%;
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__social-btns {
+		width: 100%;
+
+		display: flex;
+			justify-content: space-between;
+
+		margin-top: 60px;
+	}
+
+	&__social-btn {
+		box-sizing: border-box;
+
+		width: 250px;
+		padding: 10px 15px;
+
+		display: flex;
+			align-items: center;
+
+		font-size: 14px;
+		color: #fff;
+		text-decoration: none;
+
+		&:before {
+			content: '';
+			display: block;
+			width: 20px;
+			height: 20px;
+
+			margin-right: 20px;
+
+			background-size: cover;
+		}
+
+		&--facebook {
+			background: $FbColor;
+
+			&:before {
+				background-image: url('../img/facebook.svg');
+			}
+		}
+
+		&--linkedin {
+			background: $InColor;
+
+			&:before {
+				background-image: url('../img/linkedin.svg');
+			}
+		}
+	}
+
+	&__separator {
+		margin: 60px 0 50px;
+	}
+
+	&__form-title {
+		margin-top: 58px;
+		margin-bottom: 15px;
+	}
+
+	&__form-subtitle {
+		margin-bottom: 51px;
+	}
+
+	&__bubble {
+		margin-top: 25px;
+		max-width: 260px;
+		width: 100%;
+	}
+
+	&__agree-input {
+		margin-top: 47px;
+	}
+
+	&__btn {
+		margin-top: 62px;
+	}
+}

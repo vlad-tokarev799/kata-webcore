@@ -1,0 +1,12 @@
+.tooltip-container {
+	position: relative;
+	padding-right: 20px;
+
+	&__tooltip {
+		position: absolute;
+			top: 50%;
+			right: 0;
+
+		transform: translateY(-50%);
+	}
+}

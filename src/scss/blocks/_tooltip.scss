@@ -1,0 +1,19 @@
+.tooltip {
+	&__icon {
+		border: 2px solid #aaaaaa;
+		border-radius: 50%;
+
+		width: 6px;
+		height: 6px;
+
+		display: flex;
+			justify-content: center;
+			align-items: center;
+
+		font-size: 8px;
+		padding: 1px;
+		color: #aaa;
+
+		cursor: pointer;
+	}
+}

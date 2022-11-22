@@ -1,0 +1,12 @@
+.row {
+	display: flex;
+	align-items: flex-start;
+
+	&--sb {
+		justify-content: space-between;
+	}
+
+	&--gap {
+		gap: 35px;
+	}
+}
