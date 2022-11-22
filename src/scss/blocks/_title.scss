@@ -2,6 +2,10 @@
 	font-size: 30px;
 	letter-spacing: -0.3px;
 
+	@media (max-width: 580px) {
+		font-size: 26px;
+	}
+
 	&--md {
 		font-size: 22px;
 		letter-spacing: -0.2px;

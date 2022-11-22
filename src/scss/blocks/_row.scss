@@ -8,5 +8,13 @@
 
 	&--gap {
 		gap: 35px;
+
+		@media (max-width: 1170px) {
+			gap: 20px;
+		}
+
+		@media (max-width: 990px) {
+			gap: 10px;
+		}
 	}
 }

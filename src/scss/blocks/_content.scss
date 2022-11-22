@@ -1,6 +1,27 @@
 .content {
+	--col-width: 250px;
+
 	padding: 112px 80px 110px 70px;
 	width: 100%;
+	box-sizing: border-box;
+
+	@media (max-width: 1170px) {
+		--col-width: 200px;
+
+		padding: 80px 60px;
+	}
+
+	@media (max-width: 900px) {
+		--col-width: 100%;
+	}
+
+	@media (max-width: 768px) {
+		padding: 60px 30px;
+	}
+
+	@media (max-width: 580px) {
+		width: 100%;
+	}
 
 	&__title {
 		margin-bottom: 20px;
@@ -13,12 +34,17 @@
 			justify-content: space-between;
 
 		margin-top: 60px;
+
+		@media (max-width: 900px) {
+			flex-direction: column;
+			gap: 10px;
+		}
 	}
 
 	&__social-btn {
 		box-sizing: border-box;
 
-		width: 250px;
+		width: var(--col-width);
 		padding: 10px 15px;
 
 		display: flex;
@@ -68,6 +94,10 @@
 
 	&__separator {
 		margin: 60px 0 50px;
+
+		@media (max-width: 580px) {
+			margin: 30px 0;
+		}
 	}
 
 	&__form-title {
@@ -91,5 +121,26 @@
 
 	&__btn {
 		margin-top: 62px;
+		width: var(--col-width);
+	}
+
+	&__input {
+		width: var(--col-width);
+	}
+
+	&__inputs-row {
+		@media (max-width: 900px) {
+			flex-direction: column;
+			gap: 15px;
+		}
+	}
+
+	&__select-row {
+		@media (max-width: 900px) {
+			display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 10px;
+				justify-items: start;
+		}
 	}
 }

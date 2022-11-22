@@ -7,6 +7,15 @@
 	background: #fff;
 	box-shadow: 0 0 90px rgba(#000, .2);
 
+	@media (max-width: 1470px) {
+		width: calc(100% - 30px);
+		margin: 80px 15px;
+	}
+
+	@media (max-width: 580px) {
+		flex-direction: column;
+	}
+ 
 	&__img {
 		flex-shrink: 0;
 
@@ -16,5 +25,20 @@
 		padding: 43px 50px;
 
 		background-image: url('../img/bg.jpg');
+
+		@media (max-width: 1470px) {
+			width: 40%;
+		}
+
+		@media (max-width: 768px) {
+			width: auto;
+			padding: 60px 30px;
+		}
+
+		@media (max-width: 580px) {
+			background-image: none;
+			background: $accentColor;
+			padding: 30px;
+		}
 	}
 }

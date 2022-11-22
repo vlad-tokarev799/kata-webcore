@@ -2,6 +2,7 @@ const {src, dest, parallel, series, watch} = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass')(require('sass'));
 const del = require('del');
+const gcmq = require(`gulp-group-css-media-queries`);
 
 function syncBrowsers() {
 	browserSync.init({
@@ -24,6 +25,7 @@ function scss() {
 		.pipe(sass({
 			outputStyle: 'expanded'
 		}))
+		.pipe(gcmq())
 		.pipe(dest('./docs/css'))
 		.pipe(browserSync.stream())
 }
