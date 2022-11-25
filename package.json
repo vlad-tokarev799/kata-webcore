@@ -6,5 +6,8 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-sass": "^5.1.0",
     "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
   }
 }
