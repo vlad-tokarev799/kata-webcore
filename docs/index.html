@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Kata WebCore Task</title>
+  </head>
+
+  <body>
+
+    <main class="wrapper">
+      <div class="wrapper__img">
+        <a href="/" class="logo">
+          <img src="img/logo.svg" alt="" class="logo__img">
+        </a>
+      </div>
+      <div class="content">
+        <h1 class="title content__title">Get iintoo it today</h1>
+        <p class="subtitle content__subtitle">There is no charge or obligation upon registration.</p>
+        <div class="content__social-btns">
+          <a href="" class="content__social-btn content__social-btn--facebook">
+            Register with Facebook
+          </a>
+          <a href="" class="content__social-btn content__social-btn--linkedin">
+            Register with Linkedin
+          </a>
+        </div>
+        <div class="text-separator content__separator">
+          <span class="text-separator__text">OR</span>
+        </div>
+        <form class="content__form">
+          <div class="row row--sb content__inputs-row">
+            <div class="input content__input">
+              <label for="input__email" class="input__label">Email</label>
+              <input id="input__email" type="email" class="input__area">
+            </div>
+            <div class="input content__input">
+              <label for="input__phone" class="input__label">Phone</label>
+              <input id="input__phone" type="tel" class="input__area">
+            </div>
+          </div>
+          <h2 class="title title--md content__form-title">What type of investor are you?</h2>
+          <p class="subtitle subtitle--sm content__form-subtitle">Select the type of investor you are below.</p>
+          <div class="row row--gap content__select-row">
+            <div class="tooltip-container">
+              <div class="input-row">
+                <input type="radio" name="investor-type" class="radio input-row__input" id="investor-type__individual">
+                <label for="investor-type__individual" class="label input-row__label">Individual</label>
+              </div>
+              <div class="tooltip tooltip-container__tooltip"><span class="tooltip__icon">ℹ</span></div>
+            </div>
+            <div class="tooltip-container">
+              <div class="input-row">
+                <input type="radio" name="investor-type" class="radio input-row__input" id="investor-type__business">
+                <label for="investor-type__business" class="label input-row__label">Business</label>
+              </div>
+              <div class="tooltip tooltip-container__tooltip"><span class="tooltip__icon">ℹ</span></div>
+            </div>
+            <div class="tooltip-container">
+              <div class="input-row">
+                <input type="radio" name="investor-type" class="radio input-row__input" id="investor-type__ira">
+                <label for="investor-type__ira" class="label input-row__label">IRA</label>
+              </div>
+              <div class="tooltip tooltip-container__tooltip"><span class="tooltip__icon">ℹ</span></div>
+            </div>
+            <div class="tooltip-container">
+              <div class="input-row">
+                <input type="radio" name="investor-type" class="radio input-row__input" id="investor-type__trust">
+                <label for="investor-type__trust" class="label input-row__label">Trust</label>
+              </div>
+              <div class="tooltip tooltip-container__tooltip"><span class="tooltip__icon">ℹ</span></div>
+            </div>
+          </div>
+          <div class="bubble-message content__bubble">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</div>
+          <div class="agree-input content__agree-input">
+            <input type="checkbox" class="agree-input__checkbox" id="agree__checkbox">
+            <label for="agree__checkbox" class="agree-input__label">I agree to the terms and receiving notifications from intoo <a href="" class="agree-input__link">View full terms</a></label>
+          </div>
+          <button type="submit" class="btn btn--md content__btn">Create Account</button>
+        </form>
+      </div>
+    </main>
+
+  </body>
+
+</html>
