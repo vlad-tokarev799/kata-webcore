@@ -2,8 +2,8 @@
 	background: $accentColor;
 	color: #fff;
 	border: none;
-	border-radius: 5px;
-	font-size: 14px;
+	border-radius: .5rem;
+	font-size: 1.4rem;
 
 	transition: background-color 0.2s ease-in-out;
 
@@ -12,6 +12,6 @@
 	}
 
 	&--md {
-		padding: 12px 30px;
+		padding: 1.2rem 3rem;
 	}
 }

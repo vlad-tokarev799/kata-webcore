@@ -1,14 +1,22 @@
 .content {
-	--col-width: 250px;
+	--col-width: 25rem;
 
-	padding: 112px 80px 110px 70px;
+	padding: 11.2rem 8rem 11rem 7rem;
 	width: 100%;
 	box-sizing: border-box;
 
-	@media (max-width: 1170px) {
-		--col-width: 200px;
+	@media (max-width: 1300px) {
+		--col-width: 23.5rem;
 
-		padding: 80px 60px;
+		padding: 8rem 6rem;
+	}
+
+	@media (max-width: 1170px) {
+		--col-width: 22rem;
+	}
+
+	@media (max-width: 990px) {
+		--col-width: 19.5rem;
 	}
 
 	@media (max-width: 900px) {
@@ -16,7 +24,7 @@
 	}
 
 	@media (max-width: 768px) {
-		padding: 60px 30px;
+		padding: 6rem 3rem;
 	}
 
 	@media (max-width: 580px) {
@@ -24,7 +32,7 @@
 	}
 
 	&__title {
-		margin-bottom: 20px;
+		margin-bottom: 2rem;
 	}
 
 	&__social-btns {
@@ -33,11 +41,11 @@
 		display: flex;
 			justify-content: space-between;
 
-		margin-top: 60px;
+		margin-top: 6rem;
 
 		@media (max-width: 900px) {
 			flex-direction: column;
-			gap: 10px;
+			gap: 1rem;
 		}
 	}
 
@@ -45,12 +53,12 @@
 		box-sizing: border-box;
 
 		width: var(--col-width);
-		padding: 10px 15px;
+		padding: 1rem 1.5rem;
 
 		display: flex;
 			align-items: center;
 
-		font-size: 14px;
+		font-size: 1.4rem;
 		color: #fff;
 		text-decoration: none;
 
@@ -59,10 +67,10 @@
 		&:before {
 			content: '';
 			display: block;
-			width: 20px;
-			height: 20px;
+			width: 2rem;
+			height: 2rem;
 
-			margin-right: 20px;
+			margin-right: 2rem;
 
 			background-size: cover;
 		}
@@ -93,34 +101,34 @@
 	}
 
 	&__separator {
-		margin: 60px 0 50px;
+		margin: 6rem 0 5rem;
 
 		@media (max-width: 580px) {
-			margin: 30px 0;
+			margin: 3rem 0;
 		}
 	}
 
 	&__form-title {
-		margin-top: 58px;
-		margin-bottom: 15px;
+		margin-top: 5.8rem;
+		margin-bottom: 1.5rem;
 	}
 
 	&__form-subtitle {
-		margin-bottom: 51px;
+		margin-bottom: 5.1rem;
 	}
 
 	&__bubble {
-		margin-top: 25px;
-		max-width: 260px;
+		margin-top: 2.5rem;
+		max-width: 26rem;
 		width: 100%;
 	}
 
 	&__agree-input {
-		margin-top: 47px;
+		margin-top: 4.7rem;
 	}
 
 	&__btn {
-		margin-top: 62px;
+		margin-top: 6.2rem;
 		width: var(--col-width);
 	}
 
@@ -131,7 +139,7 @@
 	&__inputs-row {
 		@media (max-width: 900px) {
 			flex-direction: column;
-			gap: 15px;
+			gap: 1.5rem;
 		}
 	}
 
@@ -139,7 +147,7 @@
 		@media (max-width: 900px) {
 			display: grid;
 				grid-template-columns: 1fr 1fr;
-				gap: 10px;
+				gap: 1rem;
 				justify-items: start;
 		}
 	}

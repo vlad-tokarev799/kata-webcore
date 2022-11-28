@@ -7,14 +7,14 @@
 	}
 
 	&--gap {
-		gap: 35px;
+		gap: 3.5rem;
 
 		@media (max-width: 1170px) {
-			gap: 20px;
+			gap: 2rem;
 		}
 
 		@media (max-width: 990px) {
-			gap: 10px;
+			gap: 1rem;
 		}
 	}
 }

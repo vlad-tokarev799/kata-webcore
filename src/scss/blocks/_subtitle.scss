@@ -1,13 +1,13 @@
 .subtitle {
-	font-size: 20px;
-	letter-spacing: -0.15px;
+	font-size: 2rem;
+	letter-spacing: -0.015rem;
 
 	@media (max-width: 580px) {
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 
 	&--sm {
-		font-size: 15px;
-		letter-spacing: -0.2px;
+		font-size: 1.5rem;
+		letter-spacing: -0.02rem;
 	}
 }
